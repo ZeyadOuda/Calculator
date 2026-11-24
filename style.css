@@ -1,0 +1,40 @@
+body{
+    font-family: arial;
+    text-align: center;
+    background-color :aquamarine;
+}
+h1{
+    color: brown;
+}
+.Calculator{
+    background-color: whitesmoke;
+    width:250px;
+    margin:auto;
+    padding : 20px;
+    border: radius 10px;
+}
+input{
+    width:90%;
+    height: 40 px;
+    font-size:20 px ;
+    margin-bottom:15px;
+
+}
+.buttons{
+
+ display: grid;   
+ grid-template-columns: repeat(4,1fr);
+ gap: 8px
+}
+button{
+    padding: 15px;
+    font-size: 18px;
+    background-color:lightgray;
+    border: radius 5px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color:skyblue
+}
